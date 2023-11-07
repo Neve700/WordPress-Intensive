@@ -57,6 +57,9 @@
     font-family: 'Roboto', Roboto-Regular;
     font-weight: bold;
 }
+.info br {
+    margin: 5px 0px 5px 0px;
+}
 .infoText {
     font-size: 14px;
     color: #ffffff;
@@ -66,6 +69,23 @@
     font-size: 18px;
     color: #f9bf3b;
     font-weight: bold;
+}
+@media (max-width: 600px) {
+    .info h1 {
+        font-size: 20px;
+    }
+    .infoSimple {
+        font-size: 30px;
+    }
+    .textOrange {
+        font-size: 20px;
+    }
+    .infoText {
+        font-size: 12px;
+    }
+    .infoTextOrange {
+        font-size: 14px;
+    }
 }
 .buttonTop button {
     width: 30%;
@@ -106,7 +126,6 @@ display: block;
 margin: 10px auto;
 }
 .intensive {
-    width: 100%;
     background-color: #efefef;
     text-align: center;
 }
@@ -131,6 +150,7 @@ margin: 10px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
     margin-top: 20px;
 }
 .PC {
@@ -143,21 +163,7 @@ margin: 10px auto;
     width: 80%;
     height: auto;
 }
-@media (max-width: 600px) {
-    .PC img {
-        flex-direction: column;
-        align-items: center;
-    }
-    .PC {
-        width: 100%; 
-        max-width: none; 
-        margin: 10px 0; 
-      }
-    .PC span {
-        width: 120px;
-        font-size: 1px;
-    }
-  }
+
 .PC span {
     display: block;
     font-size: 12px;
@@ -167,6 +173,23 @@ margin: 10px auto;
     margin-top: 10px;
     padding-bottom: 30px;
 }
+@media (max-width: 600px) {
+    .intensiveInfo {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .PC img {
+        flex-direction: column;
+        align-items: center;
+    }
+    .PC {
+        width: 100%; 
+        max-width: none; 
+      }
+    .PC span {
+        font-size: 9px;
+    }
+  }
 .optimization {
     display: flex;
     flex-direction: row;
@@ -208,11 +231,11 @@ margin: 10px auto;
         padding-bottom: 20px;
     }
     .optimizationInfo h2 {
-        font-size: 14px;
+        font-size: 11px;
     }
     .optimizationInfo p {
-        font-size: 10px;
-        width: 80%;
+        font-size: 9px;
+        width: 95%;
         margin-top: 5px;
         text-align: justify;
     }
@@ -259,20 +282,20 @@ margin: 10px auto;
 }
 @media (max-width: 600px) { 
     .study h2 {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .studyContainer {
+        max-width: 300px;
     }
     .studyIcon {
-        width: 15%;
-        max-width: 100px;
-        flex: 1;
-        margin: 10px;
+        width: 20%;
     }
     .studyIcon img {
         width: 41px;
         height: auto;
     }
     .studyIcon span {
-        font-size: 10px;
+        font-size: 8px; 
     }
 }
 .gifts {
@@ -298,6 +321,11 @@ margin: 10px auto;
     font-family: 'Roboto', Roboto-Regular;
     font-size: 16px;
     color: #252525;
+}
+@media (max-width: 600px) {
+    .gifts span {
+        font-size: 14px;
+}
 }
 .webinar {
     display: flex;
@@ -333,6 +361,15 @@ margin: 10px auto;
     font-size: 16px;
     padding-bottom: 50px;
 }
+@media (max-width: 600px) {
+    .webinar h2 {font-size: 16px;}
+    .webinarInfo {
+        font-size: 20px;
+}
+.webinarInfo2 {
+    font-size: 14px;
+}
+}
 footer {
     text-align: center;
     background-color: #1a1a1a;
@@ -346,4 +383,9 @@ footer a {
 }
 footer a:hover {
     color: #fff; 
+}
+@media (max-width: 600px) {
+    footer a, span {
+        font-size: 12px;}
+
 }

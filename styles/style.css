@@ -69,7 +69,7 @@
 }
 .buttonTop button {
     width: 30%;
-    margin-top: 50px;
+    margin: 50px 0px 50px 0px;
 }
 .buttonTop button {
     font-size: 18px;
@@ -155,14 +155,195 @@ margin: 10px auto;
       }
     .PC span {
         width: 120px;
+        font-size: 1px;
     }
   }
 .PC span {
     display: block;
     font-size: 12px;
-    font-family: 'Roboto', Roboto-Regular;
+    font-family: 'Roboto', Roboto-Light;
     color: #252525;
     max-width: 300px;
     margin-top: 10px;
-    
+    padding-bottom: 30px;
+}
+.optimization {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.optimizationWoman {
+    width: 45%;
+    padding-top: 20px;
+}
+.optimizationWoman img {
+    width: 125%;
+    height: auto;
+    max-height: 460px;
+}
+.optimizationInfo {
+    width: 55%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.optimizationInfo h2 {
+    font-size: 18px;
+    font-family: 'Roboto', Roboto-Regular;
+    color: #299cbd;
+    font-weight: bold;
+    width: 67%;
+}
+.optimizationInfo p {
+    font-size: 14px;
+    font-family: 'Roboto', Roboto-Light;
+    width: 67%;
+    margin-top: 10px;
+    text-align: justify;
+}
+@media (max-width: 600px) { 
+    .optimizationInfo {
+        width: 60%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .optimizationInfo h2 {
+        font-size: 14px;
+    }
+    .optimizationInfo p {
+        font-size: 10px;
+        width: 80%;
+        margin-top: 5px;
+        text-align: justify;
+    }
+}
+.study {
+    background: url('../images/main/study/Rectangle\ 1\ copy.png') center center/cover;
+    width: 100%;
+    text-align: center;
+}
+.study h2 {
+    font-size: 18px;
+    font-family: 'Roboto', Roboto-Regular;
+    color: #efefef;
+    padding: 50px 0px 10px 0px;
+}
+.study img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px
+}
+.studyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.studyIcon {
+    width: 25%;
+    max-width: 200px;
+    flex: 1;
+    margin: 20px;
+}
+.studyIcon img {
+    width: 60%;
+    height: auto;
+}
+.studyIcon span {
+    display: block;
+    font-size: 12px;
+    font-family: 'Roboto', Roboto-Light;
+    color: #efefef;
+}
+@media (max-width: 600px) { 
+    .study h2 {
+        font-size: 16px;
+    }
+    .studyIcon {
+        width: 15%;
+        max-width: 100px;
+        flex: 1;
+        margin: 10px;
+    }
+    .studyIcon img {
+        width: 41px;
+        height: auto;
+    }
+    .studyIcon span {
+        font-size: 10px;
+    }
+}
+.gifts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #efefef;
+    width: 100%;
+}
+.gift {
+    width: 10%;
+    margin: 0 auto;
+    padding: 50px 0px 20px 0px;
+}
+.gift img {
+    width: 100%;
+    height: auto;
+}
+.gifts span {
+    margin: 0 auto;
+    width: 60%;
+    font-family: 'Roboto', Roboto-Regular;
+    font-size: 16px;
+    color: #252525;
+}
+.webinar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.webinarPC {
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0px 20px 0px;
+}
+.webinarPC img {
+    width: 50%;
+    height: auto;
+}
+.webinar h2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', Roboto-Light;
+    color: #252525;
+}
+.webinarInfo {
+    font-size: 26px;
+    color: #299cbd;
+    font-family: 'Roboto', Roboto-Regular;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
+.webinarInfo2 {
+    font-family: 'Roboto', Roboto-Light;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+footer {
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #5c5c5c;
+    padding: 20px 0px 20px 0px;
+}
+footer a {
+    color: #5c5c5c;;
+    padding: 20px 5px 10px 0px;
+    transition: 0.5s;
+}
+footer a:hover {
+    color: #fff; 
 }
